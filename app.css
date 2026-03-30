@@ -296,7 +296,7 @@
 }
 
 .preview-capture-area {
-  border-radius: 16px;
+  border-radius: 0;
   overflow: hidden;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
 }

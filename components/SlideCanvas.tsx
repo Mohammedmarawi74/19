@@ -113,18 +113,19 @@ const SlideCanvas: React.FC<SlideCanvasProps> = ({ slide, config, id }) => {
              <div className={`slide-footer-social-icon ${bg === '#ffffff' ? 'social-icon-light' : 'social-icon-dark'}`}><i className="lucide-twitter" /></div>
              <div className={`slide-footer-social-icon ${bg === '#ffffff' ? 'social-icon-light' : 'social-icon-dark'}`}><i className="lucide-instagram" /></div>
            </div>
-           <div className="slide-footer-social-handle">
-             <span className="social-handle-name" style={{ color: text }}>ReefSaudi</span>
-             <span className="social-handle-number" style={{ color: text }}>19930</span>
-           </div>
+        
         </div>
       </div>
 
       {/* Bottom Bar Footer */}
       <div className="slide-bottom-bar" style={{ backgroundColor: primary }}>
-        <div className="slide-bottom-bar-content">
-          <span className="bottom-bar-text-right" style={{ color: '#ffffff' }}>منصة المستثمر</span>
-          <span className="bottom-bar-text-left" style={{ color: '#ffffff' }}>al_investor.com</span>
+        <div className="slide-bottom-bar-content" style={{ color: bg }}>
+          <span className="bottom-bar-text-right">
+             <strong>منصة المستثمر الاقتصادية</strong>
+          </span>
+          <span className="bottom-bar-text-left">
+            al-investor.com
+          </span>
         </div>
       </div>
     </div>
